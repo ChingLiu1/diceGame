@@ -64,3 +64,28 @@ h1{
     font-size: 50px;
     margin-top: 70px;
 }
+
+#theGame{
+    position: fixed;
+    top: 150px;
+    left: 40%;
+}
+
+#theGame #dice img{
+    display: block;
+    height: 300px;
+    width: 300px;
+}
+
+#roll{
+    margin: 0px auto;
+    margin-top: 30px;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 70px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+
+}
