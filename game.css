@@ -71,15 +71,16 @@ h1{
     left: 40%;
 }
 
-#theGame #dice img{
+#theGame img{
     display: block;
     height: 300px;
     width: 300px;
 }
 
 #roll{
-    margin: 0px auto;
-    margin-top: 30px;
+    position: fixed;
+    top: 100px;
+    left:47%;
     width: 70px;
     height: 30px;
     line-height: 30px;
@@ -87,5 +88,5 @@ h1{
     font-size: 20px;
     color: white;
     background-color: black;
-
+    cursor: pointer;
 }
